@@ -6,25 +6,19 @@
 🌱 GUVI & IBM Certified | Campus Ambassador @ HCL GUVI  
 
 ## 🧠 Interests
-- 🤖 Applied AI in Real-world Problems (Mental Health, Agriculture, Veterinary Diagnosis)
+- 🤖 Applied AI in Real-world Problems (Healthcare, Agriculture, Education)
 - 📊 Data-Driven Insights & Predictive Modeling (Regression, Classification)
 - 🧬 Multimodal Generative AI (Text-to-Video, Text-to-Image using GANs & Transformers)
-- 🌐 Full-Stack Web Development (Django/Flask + React/Bootstrap)
+- 🌐 Full-Stack Web Development (Django/Flask/FastAPI + React/Bootstrap)
 - 🚀 Building Scalable Backend Systems and APIs for AI Applications
 
-## 💼 Highlight Projects
-- 🧠 [Mental Health Chatbot](https://github.com/Sharavanakumar-Ramalingam/Mental-Health-Chatbot)
-- 🌾 [SIH Smart Agriculture System](https://github.com/Sharavanakumar-Ramalingam/SIH-Solution)
-- 🌱 [Crop Disease Detection (AI)](https://github.com/Sharavanakumar-Ramalingam/Crop-Disease-Detection)
 
 ## 🛠 Tech Stack
-- Languages: Python, Java, JavaScript
-- Frameworks: Flask, Django, React, Bootstrap
+- Languages: Python, Java
+- Frameworks: Flask, Django, FastAPI, React, Bootstrap
 - Tools: Git, MongoDB, SQL, Firebase
-- AI/ML: scikit-learn, Hugging Face, PyTorch
+- AI/ML: scikit-learn, Hugging Face, PyTorch, Tensorflow
 
-## 📊 GitHub Stats
-![Sharavanakumar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sharavanakumar-Ramalingam&show_icons=true&theme=radical)
 
 ## 📫 Let's Connect!
-[LinkedIn](https://linkedin.com/in/suraj-ramalingam) | [Portfolio](#) | [Email](mailto:your-email@example.com)
+[LinkedIn](https://www.linkedin.com/in/sharavanakumar06/) | [Portfolio](https://sharavanakumar.netlify.app/) | [Email](mailto:sharavanakumar3006@gmail.com@example.com)
