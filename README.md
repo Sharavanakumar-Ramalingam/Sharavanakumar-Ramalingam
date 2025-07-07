@@ -21,7 +21,7 @@
 
 ## 📊 LeetCode Stats
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/just_sharavana?theme=dark&font=JetBrains%20Mono&ext=activity)](https://leetcode.com/u/just_sharavana/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/just_sharavana?theme=dark&font=JetBrains%20Mono)](https://leetcode.com/u/just_sharavana/)
 
 
 ## 📫 Let's Connect!
