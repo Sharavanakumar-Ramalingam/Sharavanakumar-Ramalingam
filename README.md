@@ -19,6 +19,9 @@
 - Tools: Git, MongoDB, SQL, Firebase
 - AI/ML: scikit-learn, Hugging Face, PyTorch, Tensorflow
 
+## 📊 LeetCode Stats
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Sharavanakumar-Ramalingam?theme=dark&font=Karma)](https://leetcode.com/u/just_sharavana/)
 
 ## 📫 Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/sharavanakumar06/) | [Portfolio](https://sharavanakumar.netlify.app/) | [Email](mailto:sharavanakumar3006@gmail.com@example.com)
