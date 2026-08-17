@@ -1,0 +1,61 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="bglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text{ font-family:'Fira Code','Courier New',monospace; }
+      .badge{ transform-box: fill-box; transform-origin: center; opacity:0; animation: unlock 0.6s cubic-bezier(.34,1.56,.64,1) forwards; }
+      @keyframes unlock{ from{opacity:0; transform:scale(0)} to{opacity:1; transform:scale(1)} }
+      .ring{ transform-box: fill-box; transform-origin: center; }
+      @keyframes ringpulse{ 0%{opacity:.9; transform:scale(1)} 100%{opacity:0; transform:scale(1.5)} }
+    </style>
+  </defs>
+
+  <rect width="900" height="180" fill="#050814"/>
+
+  <!-- Badge 1 -->
+  <g class="badge" style="animation-delay:0.1s">
+    <circle class="ring" cx="115" cy="75" r="48" fill="none" stroke="#00fff2" stroke-width="1.5">
+      <animate attributeName="r" values="48;68;48" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="115" cy="75" r="45" fill="#0d1420" stroke="#00fff2" stroke-width="2" filter="url(#bglow)"/>
+    <text x="115" y="88" text-anchor="middle" font-size="34">🏆</text>
+  </g>
+  <text x="115" y="158" text-anchor="middle" fill="#ffd700" font-size="12">SYMPOSIUM ×2</text>
+
+  <!-- Badge 2 -->
+  <g class="badge" style="animation-delay:0.35s">
+    <circle class="ring" cx="335" cy="75" r="48" fill="none" stroke="#00fff2" stroke-width="1.5">
+      <animate attributeName="r" values="48;68;48" dur="2.6s" begin="0.95s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="0.95s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="335" cy="75" r="45" fill="#0d1420" stroke="#00fff2" stroke-width="2" filter="url(#bglow)"/>
+    <text x="335" y="88" text-anchor="middle" font-size="34">🥇</text>
+  </g>
+  <text x="335" y="158" text-anchor="middle" fill="#ffd700" font-size="12">HACKATHON ×3</text>
+
+  <!-- Badge 3 -->
+  <g class="badge" style="animation-delay:0.6s">
+    <circle class="ring" cx="555" cy="75" r="48" fill="none" stroke="#00fff2" stroke-width="1.5">
+      <animate attributeName="r" values="48;68;48" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="555" cy="75" r="45" fill="#0d1420" stroke="#00fff2" stroke-width="2" filter="url(#bglow)"/>
+    <text x="555" y="88" text-anchor="middle" font-size="34">🥉</text>
+  </g>
+  <text x="555" y="158" text-anchor="middle" fill="#ffd700" font-size="12">STATE FINALIST</text>
+
+  <!-- Badge 4 -->
+  <g class="badge" style="animation-delay:0.85s">
+    <circle class="ring" cx="775" cy="75" r="48" fill="none" stroke="#00fff2" stroke-width="1.5">
+      <animate attributeName="r" values="48;68;48" dur="2.6s" begin="1.45s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.6s" begin="1.45s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="775" cy="75" r="45" fill="#0d1420" stroke="#00fff2" stroke-width="2" filter="url(#bglow)"/>
+    <text x="775" y="88" text-anchor="middle" font-size="34">📜</text>
+  </g>
+  <text x="775" y="158" text-anchor="middle" fill="#ffd700" font-size="12">GUVI + IBM CERTIFIED</text>
+</svg>
