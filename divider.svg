@@ -1,0 +1,29 @@
+<svg width="900" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="g" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .pulse{ animation: glow 2.4s ease-in-out infinite; }
+      @keyframes glow{ 0%,100%{opacity:.4} 50%{opacity:1} }
+    </style>
+  </defs>
+
+  <line x1="0" y1="25" x2="900" y2="25" stroke="#00fff2" stroke-opacity="0.25" stroke-width="1"/>
+
+  <path d="M0,10 L0,0 L15,0" fill="none" stroke="#ffd700" stroke-width="2"/>
+  <path d="M900,10 L900,0 L885,0" fill="none" stroke="#ffd700" stroke-width="2"/>
+  <path d="M0,40 L0,50 L15,50" fill="none" stroke="#ffd700" stroke-width="2"/>
+  <path d="M900,40 L900,50 L885,50" fill="none" stroke="#ffd700" stroke-width="2"/>
+
+  <circle class="pulse" cx="450" cy="25" r="5" fill="#00fff2" filter="url(#g)"/>
+  <circle cx="450" cy="25" r="5" fill="none" stroke="#00fff2" stroke-width="1">
+    <animate attributeName="r" values="5;20;5" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="0" cy="25" r="4" fill="#00fff2" filter="url(#g)">
+    <animate attributeName="cx" values="0;900;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
