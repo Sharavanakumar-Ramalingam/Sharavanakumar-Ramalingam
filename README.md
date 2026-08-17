@@ -65,7 +65,7 @@
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/mission-map.svg?v=5" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/mission-map.svg" width="100%"/>
 
 </div>
 
@@ -101,7 +101,7 @@
 
 </td>
 <td width="40%" align="center">
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/radar.svg?v=5" width="260"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/radar.svg" width="260"/>
 </td>
 </tr>
 </table>
