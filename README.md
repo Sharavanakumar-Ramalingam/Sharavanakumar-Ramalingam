@@ -20,7 +20,7 @@
 <img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/ticker.svg" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharavanakumar06/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00FFF2?style=for-the-badge&logo=vercel&logoColor=black)](https://sharavanakumar.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00FFF2?style=for-the-badge&logo=vercel&logoColor=black)](http://sharavana-kumar.vercel.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/just_sharavana/)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Just_Sharo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharavanakumar3006@gmail.com)
