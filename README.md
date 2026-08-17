@@ -3,24 +3,32 @@
   These SVGs are loaded from jsDelivr (cdn.jsdelivr.net), not raw.githubusercontent.com.
   Raw GitHub serves .svg as text/plain with a nosniff header, so browsers refuse to
   render it inside <img> — that's why relative paths / raw links show a broken image.
-  jsDelivr serves the correct image/svg+xml type, so this works instantly once pushed.
+  jsDelivr serves the correct image/svg+xml type, so this works once pushed.
 
-  1. Push the assets/ folder to this repo's default branch.
+  1. Push all the .svg files into an "assets/" folder in this repo (same level as
+     README.md) — the paths below expect assets/<file>.svg, matching your current layout.
   2. If your default branch is "master" instead of "main", find-and-replace
      "@main" with "@master" everywhere below.
-  3. jsDelivr caches files for ~7 days. After editing an SVG, force a refresh at:
-     https://purge.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/<file>.svg
-     (repeat per changed file) — otherwise viewers may see the old cached version.
+  3. CACHING — this is the part that bites people: jsDelivr caches each exact URL
+     for up to ~7 days. If you edit an SVG's code and push it, the URL hasn't
+     changed, so viewers can keep seeing the OLD cached version even though your
+     repo has the new one. That's most likely what happened last time.
+     Every SVG src below ends in "?v=3" for exactly this reason — bump that
+     number (v=4, v=5, ...) on EVERY file whenever you push ANY change to ANY
+     svg, then commit. A new version number = a new URL to jsDelivr = guaranteed
+     fresh fetch, no waiting and no manual purge needed.
+     (Alternative for a one-off fix without touching the README: purge a single
+     file at https://purge.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/<file>.svg )
 -->
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/header.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/header.svg?v=3" width="100%"/>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/ticker.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/ticker.svg?v=3" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharavanakumar06/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00FFF2?style=for-the-badge&logo=vercel&logoColor=black)](http://sharavana-kumar.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00FFF2?style=for-the-badge&logo=vercel&logoColor=black)](https://sharavanakumar.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/just_sharavana/)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Just_Sharo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharavanakumar3006@gmail.com)
@@ -31,15 +39,15 @@
 
 <br>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/terminal.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/terminal.svg?v=3" width="100%"/>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
 ## 🎮 PLAYER CARD
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/core-status.svg" width="180"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/core-status.svg?v=3" width="180"/>
 
 | ATTRIBUTE | VALUE |
 |:---:|:---:|
@@ -57,17 +65,17 @@
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/mission-map.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/mission-map.svg?v=4" width="100%"/>
 
 </div>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
-## 🧬 SKILL TREE — XP PROGRESS
+## 🧬 SKILL MATRIX
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/skills.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/skills.svg?v=3" width="100%"/>
 
 <sub>Python · Django/Flask/FastAPI · React/Bootstrap · PyTorch/TensorFlow/Hugging Face · MongoDB/SQL/Firebase</sub>
 
@@ -77,7 +85,7 @@
 
 </div>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
 ## 🧠 ACTIVE RESEARCH MODULES
 
@@ -93,20 +101,20 @@
 
 </td>
 <td width="40%" align="center">
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/radar.svg" width="260"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/radar.svg?v=4" width="260"/>
 </td>
 </tr>
 </table>
 
 <br>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
 ## 🏆 ACHIEVEMENTS UNLOCKED
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/badges.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/badges.svg?v=3" width="100%"/>
 
 <br>
 
@@ -116,7 +124,7 @@
 
 <br>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
 ## 📡 LIVE TELEMETRY
 
@@ -181,7 +189,7 @@ Your commit graph will then animate as a snake eating its way through your contr
 
 <br>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
 ## 📜 QUEST LOG — PINNED REPOSITORIES
 
@@ -191,15 +199,15 @@ Your commit graph will then animate as a snake eating its way through your contr
 |---|:---:|:---:|
 | [lingualearn](https://github.com/Sharavanakumar-Ramalingam/lingualearn) | 🐍 Python | ✅ Cleared |
 | [MED_CHAT](https://github.com/Sharavanakumar-Ramalingam/MED_CHAT) | 📓 Jupyter Notebook | ✅ Cleared |
-| [SIBI_AI](https://github.com/Sharavanakumar-Ramalingam/SIBI_AI) | 🌐 Python | ✅ Cleared |
-| [WCP](https://github.com/Sharavanakumar-Ramalingam/WCP) | ☕ Java Certification | ✅ Cleared |
+| [SIBI_AI](https://github.com/Sharavanakumar-Ramalingam/SIBI_AI) | 🌐 HTML | ✅ Cleared |
+| [WCP](https://github.com/Sharavanakumar-Ramalingam/WCP) | ☕ Java | ✅ Cleared |
 | [crop_recommendation](https://github.com/Sharavanakumar-Ramalingam/crop_recommendation) | 📓 Jupyter Notebook | ✅ Cleared |
 
 </div>
 
 <br>
 
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
 
 ## ⚔️ COMPETITIVE ARENA
 
@@ -220,5 +228,5 @@ Your commit graph will then animate as a snake eating its way through your contr
 ```
 
 <div align="center">
-<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/footer.svg" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/footer.svg?v=3" width="100%"/>
 </div>
