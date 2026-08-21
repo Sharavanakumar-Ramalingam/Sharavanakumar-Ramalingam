@@ -28,7 +28,7 @@
 <img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/ticker.svg?v=3" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharavanakumar06/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00FFF2?style=for-the-badge&logo=vercel&logoColor=black)](https://sharavanakumar.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00FFF2?style=for-the-badge&logo=vercel&logoColor=black)](http://sharavana-kumar.vercel.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/just_sharavana/)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Just_Sharo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharavanakumar3006@gmail.com)
@@ -116,10 +116,6 @@
 
 <img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/badges.svg?v=3" width="100%"/>
 
-<br>
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=Sharavanakumar-Ramalingam&theme=algolia&no-frame=true&no-bg=true&row=1&column=6&margin-w=8)
-
 </div>
 
 <br>
@@ -130,16 +126,18 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sharavanakumar-Ramalingam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFF2&icon_color=FFD700&text_color=c9d1d9" width="49%"/>
-<img src="https://streak-stats.demolab.com?user=Sharavanakumar-Ramalingam&theme=tokyonight&hide_border=true&background=0D1117&ring=00FFF2&fire=FFD700&currStreakLabel=00FFF2&sideLabels=c9d1d9" width="49%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sharavanakumar-Ramalingam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFF2&text_color=c9d1d9" width="49%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sharavanakumar-Ramalingam&theme=react-dark&hide_border=true&bg_color=0D1117&color=00FFF2&line=FFD700&point=ffffff&area=true" width="49%"/>
+
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sharavanakumar-Ramalingam&theme=react-dark&hide_border=true&bg_color=0D1117&color=00FFF2&line=FFD700&point=ffffff&area=true" width="60%"/>
 
 </div>
 
 <br>
+
+
 <img src="https://raw.githubusercontent.com/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
 <br>
 
 <img src="https://cdn.jsdelivr.net/gh/Sharavanakumar-Ramalingam/Sharavanakumar-Ramalingam@main/assets/divider.svg?v=3" width="100%"/>
