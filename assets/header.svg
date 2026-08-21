@@ -53,7 +53,7 @@
 
   <rect class="sweep" x="0" y="0" width="6" height="220" fill="url(#scanGrad)"/>
 
-  <text x="480" y="102" text-anchor="middle" font-size="42" font-weight="700" fill="#00fff2" filter="url(#glow)" class="flicker">SHARAVANA KUMAR</text>
+  <text x="480" y="102" text-anchor="middle" font-size="42" font-weight="700" fill="#00fff2" filter="url(#glow)" class="flicker">SHARAVANA KUMAR RAMALINGAM</text>
 
   <text x="480" y="142" text-anchor="middle" font-size="16" fill="#ffd700" class="subtitle">AI/ML ENGINEER · FULL-STACK DEVELOPER · LEVEL 42</text>
 
